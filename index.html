@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css">
+    <title>The Mountain</title>
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+    <header id="home" class="flex flex-col items-center bg-[url(./images/bg_header.jpg)] bg-gray-200/60 bg-blend-multiply bg-100 h-dvh bg-cover">
+      <menu id="mobile-menu" class="absolute inset-0 z-40 text-white gap-6 bg-black/40 transition-all duration-300 invisible">
+        <div class="flex flex-col p-10 gap-10 bg-gray-700 w-1/8 h-full">
+          <a href="#home" class="border-b-1 pb-2 border-gray-500 w-full ">Home</a>
+          <a href="#features" class="border-b-1 pb-2 border-gray-500 w-full ">Features</a>
+          <a href="#about" class="border-b-1 pb-2 border-gray-500 w-full ">About me</a>
+          <a href="#blog" class="border-b-1 pb-2 border-gray-500 w-full ">My Blog</a>
+          <a href="#history" class="border-b-1 pb-2 border-gray-500 w-full ">My History</a>
+          <a href="#photos" class="border-b-1 pb-2 border-gray-500 w-full ">Look my Photos</a>
+          <a href="#contact" class="border-b-1 pb-2 border-gray-500 w-full ">Get in Touch!</a>
+          <a href="#" class="border-b-1 pb-2 border-gray-500 w-full ">Download</a>
+        </div>
+      </menu>
+      <nav class="flex justify-around w-dvw pt-9">
+        <div class="flex">
+          <img src="./images/your_logo.png" alt="logo" class="h-15">
+          <h1 class="text-4xl relative top-2.5 font-display">LOGO</h1>
+        </div>
+        <a id="menuOpen" class="cursor-pointer"><svg class="w-15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+        <a id="menuClose" class="cursor-pointer invisible right-88.75 fixed"><svg class="w-15 stroke-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 6L18 18M18 6L6 18" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+      </nav>
+      <h1 class="font-title font-[400] text-5xl w-fit text-center pt-40 text-white">In the hall of the <br><span class="font-[600] text-7xl">Mountain King</span></h1>
+      <p class="text-white text-center text-lg font-[200] tracking-wider pt-30">This is a simple hero unit, a simple jumbotron-style component for<br> calling extra attention to featured content or information.</p>
+    
+      <div class="flex justify-center items-center gap-1 pt-15">
+        <a href="#" class="bg-brand text-white px-4 py-3 font-[200]">Learn more</a>
+        <a href="#" class="bg-red text-white px-4 py-3 font-[200]">Download</a>
+      </div>
+    </header>
+
+    <section id="features" class="flex flex-col md:flex-row w-dvw py-30 md:p-20 justify-center items-center md:items-baseline gap-20">
+      <div class="flex flex-col items-center w-100">
+        <svg class="w-20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.65661 17L6.99975 17L6.99975 14M6.10235 14.8974L17.4107 3.58902C18.1918 2.80797 19.4581 2.80797 20.2392 3.58902C21.0202 4.37007 21.0202 5.6364 20.2392 6.41745L8.764 17.8926C8.22794 18.4287 7.95992 18.6967 7.6632 18.9271C7.39965 19.1318 7.11947 19.3142 6.8256 19.4723C6.49475 19.6503 6.14115 19.7868 5.43395 20.0599L3 20.9998L3.78312 18.6501C4.05039 17.8483 4.18403 17.4473 4.3699 17.0729C4.53497 16.7404 4.73054 16.424 4.95409 16.1276C5.20582 15.7939 5.50466 15.4951 6.10235 14.8974Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+        <h2 class="text-4xl mt-2 font-title">Consectetur Risus</h2>
+        <p class="text-center mt-5">Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Donec id elit non mi porta gravida<br>at eget metus. Nullam id dolor id nibh ultricies<br>vehicula ut id elit.</p>  
+      </div>
+      <div class="flex flex-col items-center w-100">
+        <svg class="w-20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 16C13.6569 16 15 14.6569 15 13C15 11.3431 13.6569 10 12 10C10.3431 10 9 11.3431 9 13C9 14.6569 10.3431 16 12 16Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M3 16.8V9.2C3 8.0799 3 7.51984 3.21799 7.09202C3.40973 6.71569 3.71569 6.40973 4.09202 6.21799C4.51984 6 5.0799 6 6.2 6H7.25464C7.37758 6 7.43905 6 7.49576 5.9935C7.79166 5.95961 8.05705 5.79559 8.21969 5.54609C8.25086 5.49827 8.27836 5.44328 8.33333 5.33333C8.44329 5.11342 8.49827 5.00346 8.56062 4.90782C8.8859 4.40882 9.41668 4.08078 10.0085 4.01299C10.1219 4 10.2448 4 10.4907 4H13.5093C13.7552 4 13.8781 4 13.9915 4.01299C14.5833 4.08078 15.1141 4.40882 15.4394 4.90782C15.5017 5.00345 15.5567 5.11345 15.6667 5.33333C15.7216 5.44329 15.7491 5.49827 15.7803 5.54609C15.943 5.79559 16.2083 5.95961 16.5042 5.9935C16.561 6 16.6224 6 16.7454 6H17.8C18.9201 6 19.4802 6 19.908 6.21799C20.2843 6.40973 20.5903 6.71569 20.782 7.09202C21 7.51984 21 8.0799 21 9.2V16.8C21 17.9201 21 18.4802 20.782 18.908C20.5903 19.2843 20.2843 19.5903 19.908 19.782C19.4802 20 18.9201 20 17.8 20H6.2C5.0799 20 4.51984 20 4.09202 19.782C3.71569 19.5903 3.40973 19.2843 3.21799 18.908C3 18.4802 3 17.9201 3 16.8Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>        
+        <h2 class="text-4xl mt-2 font-title">Consectetur Risus</h2>
+        <p class="text-center mt-5">Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Integer posuere erat a ante<br> venenatis dapibus posuere velit aliquet. Donec<br>ullamcorper nulla non metus auctor fringilla.</p>
+      </div>
+      <div class="flex flex-col items-center w-100">
+        <svg class="w-20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 6.2C5 5.07989 5 4.51984 5.21799 4.09202C5.40973 3.71569 5.71569 3.40973 6.09202 3.21799C6.51984 3 7.07989 3 8.2 3H15.8C16.9201 3 17.4802 3 17.908 3.21799C18.2843 3.40973 18.5903 3.71569 18.782 4.09202C19 4.51984 19 5.07989 19 6.2V21L12 16L5 21V6.2Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path> </g></svg>        
+        <h2 class="text-4xl mt-2 font-title">Consectetur Risus</h2>
+        <p class="text-center mt-5">Etiam porta sem malesuada magna mollis<br>euismod. Aenean eu leo quam Pellentesque<br>ornare sem lacinia quam venenatis vestibulum.<br>Maecenas faucibus mollis interdum.</p>
+      </div>
+    </section>
+
+    <section id="about" class="bg-[url(./images/bg_nuage.jpg)] bg-gray-200/60 bg-blend-multiply bg-200 sm:h-150 bg-center w-full flex justify-center lg:justify-end bg-contain bg-cover">
+      <div class="bg-cyan-300/30 w-150 relative lg:mr-50 gap-10 flex flex-col justify-around">
+        <div class="ms:w-100 m-10 ms:m-20 mb-0 gap-5 flex flex-col justify-center">
+          <h1 class="text-white text-4xl font-title">Lingula Mattis Ornare Ultricies</h1>
+          <h2 class="text-white text-2xl font-title ">Pellentesque Cursus Amet Parturient Etiam</h2>
+          <p class="text-white text-sm font-[200] tracking-wider">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center justify-around mb-4 gap-5">
+          <div class="border-white border-2 w-30 sm:w-45 h-30 sm:h-45 flex flex-col p-18 items-center justify-center text-white">
+            <h5 class="text-2xl">Ultricies</h5>
+            <h6 class="text-4xl">23,578</h6>
+          </div>
+          <div class="border-white border-2 w-30 sm:w-45 h-30 sm:h-45 flex flex-col p-18 items-center justify-center text-white">
+            <h5 class="text-2xl ">Fermentum</h5>
+            <h6 class="text-4xl">12,702</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="flex flex-col sm:flex-row w-dvw px-10 py-20 gap-10 lg:gap-50 justify-center">
+      <div class="sm:w-1/3 flex flex-col gap-10">
+        <h1 class="text-5xl font-title ">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h1>
+        <p class="text-xl font-body">Cras eleifend turpis fames primis vulputate ornare sagittis. Sem placerat in id cursus mi pretium tellus. Orci varius natoque penatibus et magnis dis parturient. Finibus facilisis dapibus etiam interdum tortor ligula congue. Proin libero feugiat tristique accumsan maecenas potenti ultricies. Sed diam urna tempor pulvinar vivamus fringilla lacus.<br><br> Eros lobortis nulla molestie mattis scelerisque maximus eget. Porta elementum a enim euismod quam justo lectus. Curabitur facilisi cubilia curae hac habitasse platea dictumst. Nisl malesuada lacinia integer nunc posuere ut hendrerit. Efficitur laoreet mauris pharetra vestibulum fusce dictum risus.</p>
+        <a href="#" class="bg-red text-white px-3 sm:py-5 w-50 justify-center items-center font-[400] text-2xl flex gap-2">Take a Look <svg class="w-7 relative top-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M13 15L16 12M16 12L13 9M16 12H8M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+  
+      </div>
+      <div class="sm:w-125 sm:h-125">
+        <img src="./images/1200.jpeg" alt="blog" class="w-full">
+      </div>
+    </section>
+
+    <section id="history" class="bg-[url(./images/bg_appareil_photo.jpg)] bg-gray-200/60 bg-blend-multiply bg-250 sm:h-150 bg-center w-full flex bg-contain bg-cover">
+      <div class="bg-cyan-300/30 w-150 relative sm:ml-50 p-10 flex flex-col justify-around text-white">
+        <h1 class="text-4xl font-title ">Adipiscing elit quisque faucibus ex sapien vitae pellentesque. Ad litora torquent per conubia nostra inceptos himenaeos.</h1>
+        <p class="text-base font-[200] tracking-wider italic">Rutrum gravida cras eleifend turpis fames primis vulputate. Vitae pellentesque sem placerat in id cursus mi. Inceptos himenaeos orci varius natoque penatibus et magnis. Luctus nibh finibus facilisis dapibus etiam interdum tortor. Venenatis ultrices proin libero feugiat tristique accumsan maecenas. Eu aenean sed diam urna tempor pulvinar vivamus. Donec rhoncus eros lobortis nulla molestie mattis scelerisque. Tincidunt nam porta elementum a enim euismod quam. Suscipit auctor curabitur facilisi cubilia curae hac habitasse. Iaculis massa nisl malesuada lacinia integer nunc posuere.</p>
+        <h3 class="text-2xl font-[300]">- Fermentum Dapibus</h3>
+        <div>
+          <h5>Nibh Etiam Risus Bidemdum</h5>
+          <h5>Nullam id dolor id nibh ultricies vehicula ut id elit.</h5>  
+        </div>
+      </div>
+    </section>
+
+
+    <section id="photos" class="mx-auto flex flex-col md:flex-row justify-center gap-5 md:px-50 py-20 bg-clay">
+      <div class="flex md:w-2/3 flex-col gap-5">
+        <img src="./images/300.jpeg" alt="photo">
+        <div class="flex flex-col md:flex-row gap-5 w-full">
+          <img src="./images/800.jpeg" alt="photo" class="md:w-1/2">
+          <div class="md:w-1/2 flex flex-col gap-5 justify-around">
+            <img src="./images/400.jpeg" alt="photo" class="w-full object-cover">
+            <img src="./images/2476.jpeg" alt="photo" class=" w-full">
+          </div>
+        </div>
+
+        <img src="./images/140.jpeg" alt="photo">
+      </div>
+    
+      <div class="flex flex-col gap-5 md:w-1/3 ">
+        <img src="./images/776.jpeg" alt="photo" class="w-full">
+        <img src="./images/439.jpeg" alt="photo" class="w-full h-fit">
+      </div>
+    </section>
+    
+    <section class="partenaires flex flex-col md:flex-row justify-center w-full gap-20 p-20 bg-white">
+      <img src="./images/logo-sample-01.jpg" alt="logo" class="h-25 object-cover">
+      <img src="./images/logo-sample-02.jpg" alt="logo" class="h-25 object-cover">
+      <img src="./images/logo-sample-03.png" alt="logo" class="h-25 object-cover">
+      <img src="./images/logo-sample-04.jpg" alt="logo" class="h-25 object-cover">
+      <img src="./images/logo-sample-05.jpg" alt="logo" class="h-25 object-cover">
+      <img src="./images/logo-sample-06.png" alt="logo" class="h-25 object-cover">
+    </section>
+
+    <section id="contact" class="relative isolate flex flex-col md:flex-row h-150 w-full items-center overflow-hidden">
+      <div class="absolute inset-0 scale-110 bg-[url('./images/bg_newsletter.jpg')] bg-cover bg-center blur-lg"></div>
+        <div class="absolute inset-0 bg-black/30"></div>
+          <div class="relative z-10 flex gap-8 flex-col m-5 lg:ml-100">
+            <h1 class="text-white text-4xl font-title">Maecenas sed diam eget risus varius<br>blandit sit amet non magna.</h1>
+            <p class="text-white font-body">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis<br>consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl<br>consectetur et. Praesent commodo cursus magna. vel scelerisque nisl consectetur et.</p>
+            <input type="email" name="email" id="email" placeholder="Your Email Here..." class="lg:w-1/2 bg-white text-black p-2 ">
+            <a href="#" class="text-white px-2 py-2 w-1/2 lg:w-1/4 bg-red text-center">Submit Newsletter</a>
+          </div>
+    </section>
+
+    <footer class="flex flex-col md:flex-row justify-around items-center p-20 bg-darker text-white gap-10">
+      <div>
+        <h1 class="text-4xl font-title">The Mountain</h1>
+        <h2 class="font-body">2016 Your Company. Designed and Developed by <span class="text-green-light">The Maitre jet d'ail</span></h2>  
+      </div>
+      <div class="flex gap-5">
+        <svg class="w-6 h-6 fill-green-light" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-337 273 123.5 256" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M-260.9,327.8c0-10.3,9.2-14,19.5-14c10.3,0,21.3,3.2,21.3,3.2l6.6-39.2c0,0-14-4.8-47.4-4.8c-20.5,0-32.4,7.8-41.1,19.3 c-8.2,10.9-8.5,28.4-8.5,39.7v25.7H-337V396h26.5v133h49.6V396h39.3l2.9-38.3h-42.2V327.8z"></path> </g></svg>
+        <svg class="w-6 h-6 fill-green-light" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-271 296.6 256.4 208.4" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M-14.6,321.2c-9.4,4.2-19.6,7-30.2,8.3c10.9-6.5,19.2-16.8,23.1-29.1c-10.2,6-21.4,10.4-33.4,12.8 c-9.6-10.2-23.3-16.6-38.4-16.6c-29,0-52.6,23.6-52.6,52.6c0,4.1,0.4,8.1,1.4,12c-43.7-2.2-82.5-23.1-108.4-55 c-4.5,7.8-7.1,16.8-7.1,26.5c0,18.2,9.3,34.3,23.4,43.8c-8.6-0.3-16.7-2.7-23.8-6.6v0.6c0,25.5,18.1,46.8,42.2,51.6 c-4.4,1.2-9.1,1.9-13.9,1.9c-3.4,0-6.7-0.3-9.9-0.9c6.7,20.9,26.1,36.1,49.1,36.5c-18,14.1-40.7,22.5-65.3,22.5 c-4.2,0-8.4-0.2-12.6-0.7c23.3,14.9,50.9,23.6,80.6,23.6c96.8,0,149.7-80.2,149.7-149.7c0-2.3,0-4.6-0.1-6.8 C-30.5,341-21.6,331.8-14.6,321.2"></path> </g></svg>
+        <svg class="w-6 h-6 fill-white" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 157.7 256" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M-24,359.3c-7.3,0-13.8-1.7-19.4-5.1c-4.3-2.5-7.2-5.9-8.8-10.1c-1.6-4.2-2.4-13.7-2.4-28.6v-65.6H6.1v-40.2h-60.7V145 h-36.2c-1.7,13.2-4.7,24.1-9,32.6c-4.4,8.6-10.1,15.9-17.3,22c-7.2,6.1-15.8,10.8-25.9,14.1v36.2h28.3v89.8 c0,11.7,1.2,20.6,3.7,26.8c2.4,6.2,6.8,12,13.2,17.5c6.3,5.4,14,9.6,23,12.6c8.9,2.9,19.3,4.4,31,4.4c10.3,0,19.9-1,28.8-3.1 c8.9-2,18.7-5.7,29.7-10.8v-40.4C1.8,355.1-11,359.3-24,359.3z"></path> </g></svg>
+        <svg class="w-6 h-6 fill-white" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-267 288.9 264.5 225.1" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M-21.8,354.4c-0.8-0.9-1.3-2.3-1.2-3.5c0.9-20.1-1.8-39.6-8.6-58.6c-0.9-2.4-2-3.3-4.5-2.6c-5.6,1.7-11.4,3-16.9,5 c-15.2,5.5-29.1,13.5-42.6,22.2c-1.4,0.9-3.5,1.5-5.2,1.2c-22.1-3.9-44.3-3.7-66.5-0.3c-2.2,0.3-5-0.2-6.8-1.3 c-15.7-10.2-31.7-20.2-50-25c-15.1-4-12-4.8-16.3,8.9c-5.1,16.4-7.1,33.4-6,50.6c0.1,1.2-0.8,2.7-1.6,3.8 c-6.6,7.9-11.7,16.6-14.8,26.4c-6,19-4.8,38.2-1,57.3c7.5,37.5,32.8,63.8,70.2,70.3c19.3,3.4,39.2,3.7,57.3,5.2 c20.2-1.5,38.9-1.6,57.1-4.5c31.8-5.1,55.8-22,67.8-52.7c4.2-10.7,6.5-22.4,7.9-33.8C-0.3,397.9-4.6,374.3-21.8,354.4z M-39.5,458.8c-3.3,15.6-12.4,26.3-27.6,31.8c-14.7,5.4-29.9,7.6-45.4,8.6c-7.5,0.5-15,0.1-22.5,0.1c-20.2,0.4-40.4-0.4-59.9-6.2 c-24.5-7.3-35.5-21.9-36.2-47.5c-0.3-9.1,0.7-17.9,5-26.1c8.5-16.5,23.2-22.3,40.6-22.6c9.5-0.1,19.1,0.7,28.7,1.6 c20.1,1.8,40-0.1,60-1.2c8.8-0.5,17.8-0.7,26.4,0.8c18.5,3.2,32.5,21.6,32.8,42.3C-37.6,446.5-38.3,452.8-39.5,458.8z"></path> <path d="M-191.5,424.5c-5.5,5.7-7.4,12.9-7.7,19.3c0,9.6,2.8,17.3,7.7,22.3c6.8,6.9,16.1,6.7,22.6-0.3c9.8-10.6,9.7-30.5,0-41 C-175.4,417.7-184.9,417.6-191.5,424.5z"></path> <path d="M-99.4,423.7c-11.2,10.3-11.2,33,0,43.2c6.5,5.9,15.3,5.6,21.4-0.7c5.6-5.8,7.6-13.1,7.8-21c-0.2-7.9-2.2-15.1-7.9-20.9 C-84.2,418-93,417.8-99.4,423.7z"></path> </g> </g></svg>
+        <svg class="w-6 h-6 fill-white" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-271 273 255.9 256" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M-18.7,374.8c-1.7-8.2-4.2-16.2-7.5-24c-3.2-7.6-7.2-14.8-11.8-21.6c-4.6-6.8-9.8-13-15.5-18.8 c-5.8-5.8-12.2-11.1-18.8-15.5c-6.8-4.6-14.2-8.6-21.6-11.8c-7.7-3.3-15.7-5.8-24-7.5c-8.4-1.7-17-2.6-25.7-2.6s-17.3,0.9-25.7,2.6 c-8.2,1.7-16.2,4.2-23.9,7.5c-7.6,3.2-14.8,7.2-21.6,11.8c-6.8,4.6-13.1,9.8-18.8,15.5s-11,12.2-15.5,18.8 c-4.6,6.8-8.6,14-11.8,21.6c-3.3,7.7-5.8,15.7-7.5,24c-1.7,8.4-2.6,17-2.6,25.7s0.9,17.3,2.6,25.7c1.7,8.2,4.2,16.2,7.5,23.9 c3.2,7.6,7.2,14.8,11.8,21.7c4.6,6.8,9.8,13,15.5,18.8c5.8,5.8,12.2,11,18.8,15.5c6.8,4.6,14.2,8.6,21.6,11.8 c7.7,3.3,15.7,5.8,23.9,7.5c8.4,1.7,17,2.6,25.7,2.6s17.2-0.9,25.7-2.6c8.2-1.7,16.2-4.2,24-7.5c7.6-3.2,14.8-7.2,21.6-11.8 c6.8-4.6,13.1-9.8,18.8-15.5c5.8-5.8,11-12.2,15.5-18.8c4.6-6.8,8.6-14.1,11.8-21.7c3.3-7.7,5.8-15.7,7.5-23.9 c1.7-8.4,2.6-17,2.6-25.7S-17,383.2-18.7,374.8z M-143.6,291.6c27.6,0,52.7,10.3,71.9,27.2c-0.3,0.4-15.7,24-56.9,39.4 c-18.6-34.2-39.1-61.4-40.8-63.6C-161.1,292.7-152.5,291.6-143.6,291.6z M-169.9,294.8C-169.9,294.7-169.8,294.7-169.9,294.8 L-169.9,294.8z M-190.1,302c1.5,1.9,21.6,29.3,40.5,62.8c-52.3,13.8-97.7,13.3-100.5,13.2C-243.2,344.3-220.5,316.3-190.1,302z M-224.7,473.2c-17.3-19.2-27.9-44.7-27.9-72.7c0-1.2,0.1-2.3,0.1-3.4c1.9,0,55.7,1.3,111.8-15.5c3.1,6.1,6.1,12.4,8.9,18.5 c-1.4,0.4-2.9,0.8-4.3,1.3C-194.9,420.4-224.7,473.2-224.7,473.2z M-143.6,509.4c-25.4,0-48.5-8.7-67-23.1 c0.4-0.8,21.5-45.7,85.5-68c0.2-0.1,0.5-0.2,0.7-0.2c15.3,39.8,21.6,73.1,23.2,82.7C-114.2,506.3-128.6,509.4-143.6,509.4z M-82.8,490.8c-1.1-6.6-6.9-38.5-21.2-77.8c35.2-5.6,65.7,4,67.9,4.8C-40.9,448.1-58.4,474.3-82.8,490.8z M-110.6,395.8 c-0.8-1.9-1.6-3.7-2.4-5.6c-2.3-5.4-4.7-10.6-7.3-15.8c43-17.5,60.5-42.8,60.7-43.1c15.2,18.6,24.5,42.3,24.8,68.1 C-36.3,399.1-73.2,391.1-110.6,395.8z"></path> </g></svg>
+      </div>
+    </footer>
+  </body>
+<script src="index.js"></script>
+</html>

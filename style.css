@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Montserrat";
+  --font-body: "Roboto";
+  --font-title: "Rokkitt";
+  --color-brand: #36c4c4;
+  --color-red: #f52257;
+  --color-clay: #dddddd;
+  --color-darker: #24323b;
+  --color-green-light: #27bd98;
+}

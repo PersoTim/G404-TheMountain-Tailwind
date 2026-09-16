@@ -1,0 +1,27 @@
+{
+  "name": "the-mountain-tailwind-tp",
+  "version": "1.0.0",
+  "description": "Vous allez reproduire une maquette en utilisant tailwind",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./style.css -o ./output.css",
+    "dev:css": "tailwindcss -i ./style.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G404-DWWM/The-Mountain-Tailwind-TP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/G404-DWWM/The-Mountain-Tailwind-TP/issues"
+  },
+  "homepage": "https://github.com/G404-DWWM/The-Mountain-Tailwind-TP#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

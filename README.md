@@ -54,4 +54,3 @@ Vos références sont les fichiers maquette*.jpg
 
 * Créer la fonctionnalité 'back-to-top' : quand on clique sur la flèche, faire remonter au début de la page 🔝
 * Faire disparaitre le menu lorsqu'on clique hors de la zone menu 🚪
-
